@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/jmr/static/css/main.639262e1.css",
+    "main.js": "/jmr/static/js/main.975208cc.js",
+    "static/media/snow.jpg": "/jmr/static/media/snow.8f14374ff370e5d9cadd.jpg",
+    "static/media/mountain2.jpg": "/jmr/static/media/mountain2.815ebbd347d78aad7191.jpg",
+    "static/media/skier.jpg": "/jmr/static/media/skier.14aab13d3d2ed59efaff.jpg",
+    "static/media/climber2.jpg": "/jmr/static/media/climber2.eddccb5717a3f96e6c0f.jpg",
+    "index.html": "/jmr/index.html",
+    "main.639262e1.css.map": "/jmr/static/css/main.639262e1.css.map",
+    "main.975208cc.js.map": "/jmr/static/js/main.975208cc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.639262e1.css",
+    "static/js/main.975208cc.js"
+  ]
+}
