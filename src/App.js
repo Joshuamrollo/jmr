@@ -6,10 +6,12 @@ import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
 import './App.css';
+import { Helmet } from 'react-helmet';
 
 function App() {
   return (
     <div className="app">
+      <Helmet><title>Joshua Rollo</title></Helmet>
     <FullPage>
       <navbar className='nav'>
         {nav.map((item, idx) => {
