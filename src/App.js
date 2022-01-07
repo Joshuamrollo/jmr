@@ -35,7 +35,7 @@ function App() {
           <div className='page-2-content'>
             <h2>About Me</h2>
             <p> 
-              Hello, my name is Joshua Rollo. After being introduced to programming in college I have fallen in love with it. As a soon to be graduate in May of 2022 I am now looking for employement as a software developer.
+              Hello, my name is Joshua Rollo. After being introduced to programming in college I have fallen in love with it. As a soon to be graduate in May of 2022 I am now looking for employment as a software developer.
             </p>
             <p><br/>
               Along with programming, I also love to ski and climb. Skiing is my favorite activity to do when on a break, I go whenever I get the opportunity. Rock climbing is my way of having fun while also being active, and with outdoor climbing you can get some amazing views.
