@@ -53,11 +53,13 @@ function App() {
               {projects.map((project, idx) => {
                 return (
                   <div className={'project ' + project.class}  key={idx}>
-                    <h3 className='project-title'>{project.name}</h3>
+                    <h3 className='project-titles'>{project.name}</h3>
                     <img src={project.img} alt='gif of project' className='gif' />
-                    <a href={project.github}>Github</a>
-                    <a href={project.url}>Website</a>
-                    <p>{project.description}</p>
+                    <div className='links'>
+                      <a href={project.github}>Github</a><div>&nbsp;-&nbsp;</div>
+                      <a href={project.url}>Website</a>
+                    </div>
+                    <p className='desc'>{project.description}</p>
                   </div>
                 )
               })}

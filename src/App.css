@@ -76,8 +76,12 @@ h2 {
 }
 
 .page-1-content {
-  padding-top: 24rem;
+  padding-top: 10rem;
   max-width: 31.7rem;
+}
+
+.desc {
+  display: none;
 }
 
 .page-1-p {
@@ -87,10 +91,11 @@ h2 {
 
 .page-2 {
   background-image: url(./img/climber2.jpg);
+  background-position: left;
 }
 
 .page-2-content {
-  padding-top: 15rem;
+  padding-top: 5rem;
   max-width: 40rem;
 }
 
@@ -99,12 +104,17 @@ h2 {
 }
 
 .project-title {
-  margin-bottom: 2rem;
+  margin-bottom: 0rem;
   margin-inline: auto;
 }
 
+.project-titles {
+  margin-inline: auto;
+  font-size: 1.2rem;
+}
+
 .page-3-content {
-  padding-top: 7rem;
+  padding-top: 0rem;
 }
 
 .projects-wrapper {
@@ -112,7 +122,8 @@ h2 {
   overflow-x: scroll;
   min-height: fit-content;
   overflow-y: hidden;
-  margin-top: 3rem;
+  margin-top: 0rem;
+  flex-direction: column;
 }
 
 .projects-wrapper::-webkit-scrollbar {
@@ -120,11 +131,12 @@ h2 {
 }
 
 .project {
-  margin-inline: 1rem;
+  margin-inline: 2rem;
+  margin-top: 0.2rem;
 }
 
 .project-title {
-  margin-bottom: 0.5rem;
+  margin-bottom: 0rem;
 }
 
 .gif {
@@ -180,4 +192,62 @@ h2 {
   display: inline-block;
   position: relative;
   color: black;
+}
+
+.links {
+  display: flex;
+}
+
+@media (min-width: 27em) {
+  .project {
+    margin-inline: 4rem;
+    margin-top: 0.2rem;
+  }
+}
+
+@media (min-width: 29em) {
+  .project {
+    margin-inline: 7rem;
+    margin-top: 0.2rem;
+  }
+}
+
+@media (min-width: 40em) {
+  .page-1-content {
+    padding-top: 24rem;
+  }
+
+  .page-2-content {
+    padding-top: 15rem;
+  }
+
+  .page-3-content {
+    padding-top: 7rem;
+  }
+
+  .projects-wrapper {
+    flex-direction: row;
+    margin-top: 3rem;
+  }
+
+  .desc {
+    display: flex;
+  }
+
+  .project-title {
+    margin-bottom: 2rem;
+    margin-inline: auto;
+  }
+
+  .project-title {
+    margin-bottom: 0.5rem;
+  }
+
+  .project {
+    margin-inline: 1rem;
+  }
+
+  .project-titles {
+    font-size: inherit;
+  }
 }
